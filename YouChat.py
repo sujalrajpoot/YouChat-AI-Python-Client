@@ -190,7 +190,7 @@ def main():
         model=AIModelEnum.GPT_4O,  # Example model
         chat_mode=ChatModeEnum.DEFAULT,  # Example chat mode
         query="What is current AQI in New Delhi?",
-        prints=False
+        prints=True
     )
     
     youchat = YouChat(config)
