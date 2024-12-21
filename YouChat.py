@@ -189,8 +189,7 @@ def main():
     config = YouChatConfig(
         model=AIModelEnum.GPT_4O,  # Example model
         chat_mode=ChatModeEnum.DEFAULT,  # Example chat mode
-        query="What is current AQI in New Delhi?",
-        prints=True
+        query="What is current AQI in New Delhi?"
     )
     
     youchat = YouChat(config)
