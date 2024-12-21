@@ -180,8 +180,7 @@ class YouChat(YouChatAPI):
                             response_dict['streaming_response'] += content
                             if self.config.prints:
                                 print(content, end='', flush=True)
-                except json.JSONDecodeError:
-                    continue
+                except:continue
         return response_dict
 
 def main():
